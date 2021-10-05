@@ -28,10 +28,6 @@ if type(os.environ.get("DISPLAY")) is not str or len(os.environ.get("DISPLAY"))=
         
 import numpy as np
 import matplotlib.pyplot as plt
-# %matplotlib inline
-# %load_ext autoreload
-# %autoreload 2
-
 from collections import defaultdict
 import random, math
 import numpy as np
